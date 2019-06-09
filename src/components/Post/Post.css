@@ -1,0 +1,45 @@
+.PostContainer{
+    width: 50%;
+    margin: 30px 15% 0 15%;
+    border-top: 1px solid grey;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 5px gray;
+}
+
+.PostText{
+    display: block;
+    font-size: 0.9em;
+    font-family: Comforta, sans-serif, Arial;
+    margin: 10px;
+}
+
+.Wrapper{
+    padding: 2px 10px;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid silver;
+    padding: 5px;
+}
+
+.Label{
+    flex: 1;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+
+.Comments{
+    text-align: left;
+    display: block;
+    padding: 5px;
+}
+
+.Comment{
+    margin-left: 30px;
+    text-align: left;
+    font-size: 0.8em;
+}
