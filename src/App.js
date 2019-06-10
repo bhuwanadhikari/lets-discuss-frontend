@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from './components/Header/Header';
+import AddPost from './components/AddPost/AddPost';
 
 class App extends React.Component {
 
@@ -8,9 +9,12 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        {/* Not need p tag */ }
-        <h2>This is where we are going to build our Lets Discuss! App.</h2>
-      </div>
+        <AddPost />
+        <div>Post</div>
+        <div>Post</div>
+        <div>Post</div>
+        <div>Post</div>
+       </div>
     );
   }
 }
