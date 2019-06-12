@@ -1,9 +1,14 @@
 import React from 'react';
 import './Button.css';
 
-function Button(){
+function Button(props) {
     return (
-        <button className = "BigButton">Post</button>
+        <button
+            className={props.btnSize}
+            onClick={props.clicked}
+        >
+            {props.title}
+        </button>
     )
 }
- export default Button;
+export default Button;
