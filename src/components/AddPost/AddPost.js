@@ -1,14 +1,13 @@
 import React from 'react';
 import './AddPost.css';
-import '../Button/Button.css';
-import '../Input/Input.css';
+import Input from '../Input/Input';
 
 class AddPost extends React.Component{
 
     render(){
         return (
             <div className="Container">
-                <input className = "BigInput"/>
+                <Input />
                 <button className = "BigButton">Post</button>
             </div>
         )
