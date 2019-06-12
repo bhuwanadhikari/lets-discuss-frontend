@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from './components/Header/Header';
 import AddPost from './components/AddPost/AddPost';
+import Post from './components/Post/Post';
 
 class App extends React.Component {
 
@@ -10,10 +11,7 @@ class App extends React.Component {
       <div className="App">
         <Header />
         <AddPost />
-        <div>Post</div>
-        <div>Post</div>
-        <div>Post</div>
-        <div>Post</div>
+        <Post />
        </div>
     );
   }

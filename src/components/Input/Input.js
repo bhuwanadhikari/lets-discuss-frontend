@@ -1,10 +1,14 @@
 import React from 'react';
 import './Input.css';
 
-function Input (){
+function Input(props) {
 
     return (
-        <input className = "BigInput"/>
+        <input
+            className={props.inputSize}
+            placeholder={props.placeholder}
+            onChange = {props.changed}
+        />
     )
 }
 
