@@ -4,11 +4,12 @@ import './Button.css';
 function Button(props) {
     return (
         <button
-            className={props.btnSize}
-            onClick={props.clicked}
+            className={props.btnSize} 
+            onClick = {props.clicked}
         >
-            {props.title}
+           {props.title}
         </button>
     )
 }
+
 export default Button;
