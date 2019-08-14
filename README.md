@@ -1,4 +1,4 @@
-#lets-dicuss-frontend
+# lets-dicuss-frontend
 lets-discuss-frontend is a react app that integrates with my lets-discuss-backend repo and is a simple public discussion forum. It is build during the training of react.js given by me to other students.
 
 ## Usage
